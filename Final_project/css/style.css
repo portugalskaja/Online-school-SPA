@@ -1,0 +1,483 @@
+body {
+    background-color: white;
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 31px;
+}
+
+.main-header {
+    padding-top: 35px;
+    padding-bottom: 75px;
+    background-color: #6451d5;
+}
+
+.header-top {
+    padding-top: 0px;
+    padding-bottom: 82px;
+}
+
+.header-top::after {
+    display: table;
+    clear: both;
+    content="";
+}
+
+.logo {
+    width: 180px;
+    height: 80px;
+    float: left;
+}
+
+.logo img {
+    display: block;
+}
+
+.main-menu {
+    width: 700px;
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.main-menu li:last-child {
+    margin-right: 0px;
+}
+
+.main-menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+}
+
+.main-menu a:active {
+    color: #9386e2;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 25px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #382d78;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 320px;
+    font-weight: bold;
+}
+
+.btn-blue {
+    background: #382d78;
+}
+
+.btn-blue:hover {
+    background: #32286c;
+}
+
+.btn-blue:active {
+    background: #32286c;
+    color: #706998;
+}
+
+.promo {
+    width: 450px;
+    display: inline-block;
+    margin-top: 76px;
+    position: relative;
+    z-index: 10;
+}
+
+.promo::after {
+    content: "";
+    position: absolute;
+    width: 640px;
+    height: 450px;
+    background-image: url("../img/promo_image.png");
+    background-repeat: no-repeat;
+    top: -20px;
+    left: 380px;
+    z-index: -1;
+}
+
+.promo-title {
+    margin-bottom: 35px;
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.promo p {
+    color: #bcb3f2;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    width: 320px;
+}
+
+.promo .btn {
+    width: 270px;
+}
+
+.features {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-color: #efefef;
+    min-height: 100px;
+}
+
+.features .container {
+    display: table;
+    clear: both;
+    content="";       
+}
+
+.features-item {
+    position: relative;
+    float: left;
+    width: 320px;
+    margin-right: 30px;
+    padding-top: 41px;
+}
+
+.features-icon {
+    width: 72px;
+    height: 67px;
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    background-repeat: no-repeat;
+}
+
+.features-icon-schedule {
+    background-image: url("../img/features_schedule.png")
+} 
+
+.features-icon-practice {
+    background-image: url("../img/features_practice.png")
+}
+
+.features-icon-work {
+    background-image: url("../img/features_work.png")
+}
+
+.features-item:last-child {
+    margin-right: 0;
+}
+
+.features-title {
+    margin: 0;
+    margin-top: 48px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.features-item p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6a6a6a;
+    text-align: center; 
+}
+
+.education {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 68px;
+    background-color: #ffffff;
+}
+
+table.education-table {
+    width: 100%;
+    border-collapse: collapse;  
+    border-spacing: 0;
+    border: 2px solid #a7a7a7;
+}
+
+.education-title {
+    margin: 0;
+    margin-bottom: 60px;
+    font-size: 44px;
+    line-height: 50px;
+}
+
+.education-item {
+    padding-left: 30px;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left;
+    color: #404040;
+    border: 2px solid #a3a3a3; 
+}
+
+.education-item strong {
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.education-name {
+    width: 255px;
+}
+
+.education-time {
+    width: 160px;
+}
+
+.education-description {
+    padding-right: 30px;
+}
+
+td.first-row {
+    background-color: #efefef;
+}
+
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #efefef;
+}
+
+.contacts .container {
+    display: table;
+    clear: both;
+    content="";       
+}
+
+.contacts-title {
+    margin: 0;
+    margin-bottom: 58px;
+    font-size: 44px;
+    line-height: 50px;
+}
+
+.contacts-form {
+    width: 640px;
+    float: left;
+}
+
+.contacts-form td {
+    padding-bottom: 20px;
+}
+
+.contacts-form .title {
+    width: 90px;
+    padding-right: 10px;
+    padding-top: 15px;
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.contacts-form .title-gender {
+    padding-top: 5px;
+}
+
+.contacts-form .field {
+    width: 510px;
+}
+
+.contacts-form input[type="text"], .contacts-form textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 20px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Arial, sans-serif;
+    outline: none;
+    border: 2px solid #a3a3a3;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.contacts-form input[type="text"]:hover, .contacts-form textarea:hover {
+    border: 2px solid #7f7f7f;
+}
+
+.contacts-form input[type="text"]:focus, .contacts-form textarea:focus {
+    border: 2px solid #6451d5;
+}
+
+.contacts-form .field-gender {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contacts-form input[type="radio"] {
+    display: inline-block;
+    margin-left: 16px;
+    margin-right: 30px;
+}
+
+.contacts-form input[type="radio"] .gender-woman {
+    margin-left: 35px;
+}
+
+.contacts-form textarea {
+    min-height: 105px;
+    resize: none;
+    margin-bottom: 0;
+}
+
+.contacts-form .btn {
+    width: 100%;
+    vertical-align: middle;
+    padding: 23px auto;
+    margin-top: 0;
+}
+
+.contacts-instruction {
+    width: 320px;
+    float: right;
+}
+
+.contacts-instruction h3 {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.contacts-instruction p {
+    margin: 0;
+    margin-bottom: 30px;
+    color: #7e7e7e;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.contacts-instruction .contacts-alert {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.contacts-alert strong {
+    color: #000000;
+}
+
+.main-footer {
+    padding-top: 65px;
+    padding-bottom: 0px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px; 
+    background-color: #2a2546;
+    min-height: 360px;
+}
+
+.main-footer::after {
+    display: table;
+    clear: both;
+    content="";     
+}
+
+.footer-address {
+    float: left;
+    width: 320px;
+    margin-right: 20px;
+}
+
+.footer-address .logo {
+    float: none;
+    width: 185px;
+}
+
+.footer-address p {
+    margin: 0;
+    margin-top: 80px;
+}
+
+.footer-menu {
+    float: left;
+    width: 175px;
+    margin-top: 30px;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    margin-bottom: 30px;
+}
+
+.footer-menu a {
+    color: #a39ebe;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer-menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-menu a:active {
+    color: #4f4a6a;
+    text-decoration: none;
+}
+
+.footer-menu h3 {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.footer-menu:last-child {
+    float: right;
+    width: 145px;
+}
